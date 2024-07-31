@@ -1,0 +1,11 @@
+1.Przygotować templatową klasę stosu (pozwalającą na wykorzystanie dowolnego typu danych) z funkcjami odkładania na stos tych danych, pobierania, sprawdzania rozmiaru stosu (w bajtach), ilości elementów, itd, - warto to zrobić bez wykorzystania biblioteki std::* (czyli bez np. vectora),   
+
+2.Utworzenie klasy dziedziczącej po stosie, ale pozwalającej dodatkowo pobierać z dołu (czyli taka kolejka FIFO) albo z dowolnego miejsca, dodawać elementy pomiędzy.
+
+3.Przygotować zestaw funkcji (lub klasę) pozwalającą na serializację i deserializację danych binarnych (więcej poniżej)
+
+4.Do klasy Tree dodać funkcję zapisu do pliku (np.: TXT, XML)
+
+5.Dodać funkcję odczytu drzewa z pliku pozwalające na zbudowanie w pamięci struktury obiektów
+
+6.Do klasy Tree zbudować User Interface w QT, pozwalający na dodawanie elementów drzewa, usuwanie, przesuwanie, zapis / odczyt) z użyciem QTreeView
